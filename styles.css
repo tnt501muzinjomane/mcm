@@ -1,0 +1,374 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #626938;
+	text-decoration:none;
+}
+#form8 .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+#form1 .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+
+#form7 .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+#form10 .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+
+#form6 .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+#register .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+#loginForm .error {
+ padding:1px;
+ margin:1px 0;
+ border:1px solid #f00;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #282b16;
+}
+
+*
+{
+border: 1;
+margin: 0;
+}
+
+body
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #C5AA95;
+	background: url(image/170011.jpg) fixed;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #0F412F;
+}
+
+#mainbg{
+	background: #e77a19;
+	background-repeat:repeat-y;
+	background-position: center;
+}
+
+#main{
+	margin: 0 auto;
+	width: 1014px;
+}
+
+#header{
+	width: 1014px;
+	margin: 0 auto;
+	height: 234px;
+	background: url(image/17002.jpg) no-repeat top;
+}
+
+#logo{
+	text-align: center;
+	height: 65px;
+	padding-left: 30px;
+	padding-top: 13px;
+	background: url(image/170023.jpg);
+	background-repeat: no-repeat;
+	background-position: top top;
+}
+
+#logo a {
+	text-decoration: none;
+	font-family: 'Quintessential', cursive;
+	font-size: 26px;
+	color: #FFFFFF;
+	font-weight: bold;
+	
+}
+
+
+#logo small {
+	font-size: 10px;
+	color: #FFFFFF
+}
+
+#buttons{
+	height: 77px;
+	margin: 0 auto;
+	background: #0F412f;
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#buttons ul {
+    padding-left: 0px;
+}
+
+#buttons li {
+	display: inline;
+}
+
+#buttons a {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	float: left;
+	width: 20%;
+	height: 67px;
+	padding-top: 16px;
+}
+
+#buttons a:hover {
+	height: 67px;
+	background: #e77a19;
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#content{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#content_bg{
+	background: url(image/170012.jpg);
+	background-position:top;
+	background-color: #f3f5e9;
+}
+
+#left{
+	width: 709px;
+	margin-left: 15px;
+}
+
+#left p{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#text{
+	font-family: Tahoma, Geneva, Verdana;
+	font-weight:normal;
+	color: #FFFFFF;
+	background-color:#0F412f;
+	
+	
+}
+
+
+#left H1{
+	font-family: Tahoma, Geneva, Verdana;
+	font-weight:normal;
+	color: #ffffff;
+	font-size: 18px;
+	height: 35px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	width:100%;
+	margin-bottom:20px;
+	background: url(image/170032.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+.read, #right ul .read{
+	text-align: right;
+	background: url(image/170030.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:16px;
+}
+
+.read a, #right ul li .read a{
+	color: #ffffff;
+	font-weight:normal;
+	padding-right:4px;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+.read a:hover, #right ul .read a:hover{
+	text-decoration:underline;
+}
+
+#right{
+	width: 262px;
+	float:right;
+	margin-right: 15px;
+}
+
+#right h2 {
+	font-family: Tahoma, Geneva, Verdana;
+	font-weight:normal;
+	color: #ffffff;
+	font-size: 18px;
+	text-align:center;
+	height: 35px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-bottom:20px;
+	background: url(image/170033.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#right ul{
+	list-style: none;
+	margin-bottom: 30px;
+	padding-left:7px;
+	padding-top: 5px;
+	padding-right:10px;
+}
+
+
+
+#right li{
+	background: url(image/17007.png) no-repeat left top;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#right a{
+	text-decoration: none;
+	color: #335000;
+	font-weight:bold;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+
+#footer
+{
+	background: url(image/170023.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 30px;
+	text-align: center;
+	clear:both;
+	padding-bottom: 5px;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 10px;
+	text-decoration: none;
+}
+.padding{
+	padding: 10px;
+	color:#FF0000;
+	font-weight: bold;
+}
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(image/top.jpg) no-repeat;
+    width: 1014px;
+    height: 234px;
+    margin:0 auto;
+}
+
+#slider {
+	position:relative;
+    width: 1014px;
+    height: 234px;
+	background:url(image/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	padding-left: 470px;
+	padding-top: 122px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(image/bp.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+	background:url(image/bp_hover.png) no-repeat;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(image/170010.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}#mainbg #main #logo h1 {
+	color: #FFFFFF;
+}

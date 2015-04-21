@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Municipal Council of Mbabane Systems</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Quintessential' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onload="MM_preloadImages('images/LogoBack1.png')">
+<div id="mainbg">
+<div id="main">
+<!-- header begins -->
+<div id="logo"><h1><font color="#FFFFFF">Municipal Council of Mbabane Complaint/Compliment System</h1><br /><small>"The City of Mbabane will be the prefered destination in Southern Africa offering quality life"</small>
+</div>
+<div id="header">
+
+    <div id="slider-wrapper">        
+            <div id="slider" class="nivoSlider">
+                <img src="images/header.jpg" alt="" />
+                <img src="images/header2.jpg" alt=""/>
+                <img src="images/header3.jpg" alt="" />
+				<img src="images/header4.jpg" alt="" />
+            </div>        
+  </div>
+
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</div>
+	<div id="buttons">
+		<ul>
+			<li class="first"><a href="comp.html"  title="">Complaint</a></li>
+			<li><a href="suggestion.html" title="">Suggestion</a></li>
+			<li><a href="fault.html" title="">Fault Reporting</a></li>
+            <li><a href="mcmchatroom.html" title="">Blog</a></li>
+		</ul>
+</div>
+<!-- header ends -->
+<!-- content begins -->
+<div id="content_bg">
+  <div id="content">
+	<div id="right"><table width="240" bgcolor="#FF9900" border="2" ><tr><td>
+		<h2>Reach the World Below</h2>
+			<ul>
+
+				  <li><a href="http://www.mbabane.org.sz">Mbabane City</a></li>
+				  <li><a href="http://www.google.com"><img src="images/google.png" alt="Search Engine Google" /></li>
+                  <li><a href="http://www.facebook.com"><img src="images/pin_4.png" alt="Hello Facebook" /></li>
+                  <li><a href="http://www.twitter.com"><img src="images/pin_2.png" alt="Hello twitter" /></li>
+			</ul><a href="#"><img src="images/swazi.gif" alt="" title="" style="padding-right:15px; float:left; padding-left:5px;" width="245" height="280" /></a></td></tr></table>
+	</div>
+          	<div id="left">
+			<h1>Please feed your Complaint or Compliment below</h1>
+		<div id="text">
+		<img src="images/logo80.png" alt="" title="" style="padding-right:15px; float:left; padding-left:5px;" width="130" height="140" /><fieldset>
+        <h3>Difference between a Complaint and a Compliment</h3><br /><p>A Complaint is a concerned that was reported to the Municipal Council of Mbabane but NO actions were taken by the officers responsible while a Compliment is when you informing the Municipal about your concern for the first time!</p><br />
+        <h2>Fill your Complaint here</h2><br />
+                <p>
+              
+            <form id="loginForm" name="loginForm" method="post" action="login-exec.php"><fieldset spellcheck="true">
+  <table width="500" bordercolor="#FF0000" align="left" cellpadding="1" cellspacing="0" style="color: #FFF">
+    <tr>
+     <td><tr><td width="200"> <label for="nationality" id="decision">Is it your first time to report this concern?<td width="200" ></label>
+				     <input name="radio" type="radio" id="radio" value="YES" checked>
+				     <label for="radio1" id="decision">YES</label>
+				     <input type="radio" name="radio" id="radio2" value="NO" class="required"/>
+				     <label for="radio2" id="decision">NO</label>
+				     </td></tr>
+     
+				   <tr><td width="200">  <label for="name" id="name">Name:</label></td>
+				     
+				     <td width="200"><input name="name" type="text" class="required" id="name" maxlength="200" width="280"/></td></tr>
+			        
+				  <tr><td width="200"> 
+				     <label for="race" id="race">Physical Address:</label></td><td>
+				     <input type="text" name="race" id="race" class="required"/>
+				   </td></tr>
+				   <tr><td width="200">
+				     <label for="religion" id="religion">Contact<span>*</span>:</label></td><td>
+				     
+				     <input type="text" name="religion" id="religion" class="required"/>
+				   </td></tr>
+				   <tr><td>
+				     <label for="comp" id="comp">Complaint / Compliment Details:</label></td><td><textarea name="comp" class="required" id="comp"></textarea>
+        </td></tr>
+				   
+				  <tr><td> 
+				     <label for="age" id="age">&nbsp;    </label></td><td>
+				     <input type="submit" name="bperson" id="bperson" value="Submit"></td></tr>
+				   </td>
+    </tr>
+    </table></fieldset>
+</form>
+			
+		  </td>
+		  <td width="17">&nbsp;</td>
+		</tr>
+		<tr> 
+		  <td width="9">&nbsp;</td>
+		  
+		  
+		</tr>
+	  </table></p>
+                </fieldset><br /><br />
+			<div class="hrd"></div><br />
+<h1>"Responsive Quality Service on Time"</h1>
+<img src="images/high.jpg" alt="" title="The High Way" style="padding-right:15px; float:left; padding-left:5px;" width="210"  />&nbsp; 
+<img src="images/street.jpg" alt="" title="Road Infrastructure in Mbababne" style="padding-right:15px; float:left; padding-left:5px;" width="210" />&nbsp;&nbsp;
+<img src="images/waste.jpg" alt="" title="Waste management in Mbabane" style="padding-right:15px; float:left; padding-left:5px;" width="210" />
+
+
+</div>
+
+	</div>
+    </div>
+</div>
+<!-- content ends -->
+<!-- footer begins -->
+<div id="footer">
+  <p>Copyright (c) 2014 - 2022. | <a href="http://www.facebook.com/muzi.mhlongo1?ref_component=mbasic_home_header&ref_page=%2Fwap%2Fprofile_tribe.php&refid=18">Privacy Policy</a></p>
+<p><!-- Do not remove --> Website Design by <a href="http://www.facebook.com/muzi.mhlongo1?ref_component=mbasic_home_header&ref_page=%2Fwap%2Fprofile_tribe.php&refid=18">Muzi Mhlongo on facebook</a><!-- end --></p></div>
+<!-- footer ends -->
+</div>
+</div>
+</body>
+</html>

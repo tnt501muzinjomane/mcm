@@ -1,0 +1,72 @@
+/*------------------------------------------------------------------------
+# shaper_myestate - Joomla Template by JoomShaper.com
+# ------------------------------------------------------------------------
+# author    JoomShaper http://www.joomshaper.com
+# copyright Copyright (C) 2010 - 2011 JoomShaper.com. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Websites: http://www.joomshaper.com - http://www.joomxpert.com
+# This file may not be redistributed in whole or significant part
+-------------------------------------------------------------------------*/
+/*Module type XHTML*/
+.mod-inner {background:#fff;padding:10px;position:relative;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow: 0 0 3px #d3d3d3;-webkit-box-shadow: 0 0 3px #d3d3d3;box-shadow: 0 0 3px #d3d3d3;}
+.mod-inner h3{background:url(h3-bg000.gif) repeat-x 0 100%;font-size:12px;line-height:35px;overflow:hidden;text-transform:uppercase;margin:-10px -10px 10px -10px;padding:0 10px;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius: 5px 5px 0 0}
+.mod-inner h3 span{color:#2B2B2B}
+
+.moduletable_text h3{font-size:9px;text-align:center}
+
+.moduletable ul,.moduletable_menu ul{list-style:none;margin:0;padding:0}
+.moduletable ul li,.moduletable_menu ul li{background:none;border-bottom: 1px dotted #E5E5E5;font-size:12px;margin:0;padding:3px 0}
+.moduletable_menu ul li{margin:0 -10px;padding:3px 10px}
+.moduletable_menu ul li:hover {background:#f5f5f5}
+.moduletable li span.sub,.moduletable_menu li span.sub {display:block;font-size:9px;}
+
+span.badge_new,span.badge_free,span.badge_hot,span.badge_pick,span.badge_top,span.badge_menu
+{height:49px;position:absolute;right:-3px;text-indent:-999em;top:-3px;width:48px;z-index:99}
+
+span.badge_new{background: url(file://localhost/C:/Users/Zwa/Documents/sites/sbsNEW/new/sbsNEW/uploadedSBS/calcimg/new00000.png) no-repeat 0 0;}
+span.badge_free{background: url(http://www.eswaziproperty.com/templates/shaper_myestate/images/free.png) no-repeat 0 0;}
+span.badge_hot{background: url(file://localhost/C:/Users/Zwa/Documents/sites/sbsNEW/new/sbsNEW/uploadedSBS/calcimg/hot00000.png) no-repeat 0 0;}
+span.badge_pick{background: url(file://localhost/C:/Users/Zwa/Documents/sites/sbsNEW/new/sbsNEW/uploadedSBS/calcimg/pick0000.png) no-repeat 0 0;}
+span.badge_top {background: url(file://localhost/C:/Users/Zwa/Documents/sites/sbsNEW/new/sbsNEW/uploadedSBS/calcimg/top00000.png) no-repeat 0 0;}
+span.badge_menu {background: url(http://www.eswaziproperty.com/templates/shaper_myestate/images/menu.png) no-repeat 0 0;}
+
+/*Suffix as _none*/
+.moduletable_none .mod-inner {padding:10px;-moz-box-shadow: none}
+.moduletable_none .mod-inner h3{background:none}
+
+/*Suffix _dark1*/
+.moduletable_dark1 .mod-inner {background:#946050;color:#fff}
+.moduletable_dark1 .mod-inner h3{background:#7f4c3c;color:#ffe2d9}
+/*Suffix _dark2*/
+.moduletable_dark2 .mod-inner {background:#78a24f;color:#fff}
+.moduletable_dark2 .mod-inner h3{background:#689041;color:#eefedf}
+/*Suffix _dark3*/
+.moduletable_dark3 .mod-inner {background:#666666;color:#fff}
+.moduletable_dark3 .mod-inner h3{background:#444;color:#e5e5e5}
+/*Suffix _dark4*/
+.moduletable_dark4 .mod-inner {background:#618484;color:#fff}
+.moduletable_dark4 .mod-inner h3{background:#476c6c;color:#eafefe}
+
+.moduletable_dark1 .mod-inner h3 span,.moduletable_dark2 .mod-inner h3 span,
+.moduletable_dark3 .mod-inner h3 span,.moduletable_dark4 .mod-inner h3 span{color:#f5f5f5}
+
+/*Suffix _light1*/
+.moduletable_light1 .mod-inner {background:#f7ebe6}
+.moduletable_light1 .mod-inner h3{background:#e4d2ca}
+/*Suffix _light2*/
+.moduletable_light2 .mod-inner {background:#eeffde}
+.moduletable_light2 .mod-inner h3{background:#d4e8c1}
+/*Suffix _light3*/
+.moduletable_light3 .mod-inner {background:#f5f5f5}
+.moduletable_light3 .mod-inner h3{background:#dddddd}
+/*Suffix _light4*/
+.moduletable_light4 .mod-inner {background:#daeeee}
+.moduletable_light4 .mod-inner h3{background:#c6dada}
+
+/*Module Type Flat*/
+.module h3,.module_menu h3{font-size:12px;font-weight:700;color:#000;margin:0;padding:2px 0}
+.module,.module_menu{margin:0;padding:0}
+.module ul,.module_menu ul{list-style:none;margin:0;padding:0}
+.module li,.module_menu li{font-size:11px;display:block;text-decoration:none;margin:0;padding:4px;background:none;border-bottom:1px dotted #c3c3c3;color:#858585;text-shadow:0 1px #fff}
+.module li a{color:#858585}
+.module li a:hover{text-decoration:underline}

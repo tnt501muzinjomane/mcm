@@ -1,0 +1,18 @@
+/*
+# ------------------------------------------------------------------------
+# SP Mortgage Calculator module by JoomShaper.com
+# ------------------------------------------------------------------------
+# Copyright (C) 2010 JoomShaper.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# Author: JoomShaper.com
+# Websites:  http://www.joomshaper.com -  http://www.joomxpert.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+#mortgage_calculator .sp_mc_inner{padding:5px 0}
+#mortgage_calculator label{display:block;float:left;font-size:10px;font-weight:700;height:10px;text-align:left;width:110px;margin:0;padding:4px 4px 5px 0}
+#mortgage_calculator input{float:left;margin:0 0 0 30px}
+#mc_result_text{clear:both;display:block;font-weight:700;font-size:16px;height:20px;text-align:center;border-bottom:1px dashed #e5e5e5;margin:10px 0;padding:5px 0}
+#mc_result{text-align:center;font-size:26px}
+.sp_mc_clr{clear:both}

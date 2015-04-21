@@ -1,0 +1,77 @@
+.cycle_bottomradio {  margin:0px;  z-index:9; width:700px; height:250px; background-color: #F8F8F8;  
+  }
+.cycleBottomradio_slideshow {  height:250px; margin:0px;  z-index:1;  
+  position:relative;
+    font: normal 12px  Arial, Helvetica, sans-serif; 
+    margin:0;
+    padding:0;     
+    left:0%;     
+    background:   transparent;
+    width:700px;
+	overflow:hidden;   	
+    height:250px; 
+}
+
+.cycleBottomradio_slideshow img { padding: 0px; background-color: #F8F8F8;  
+  
+    position: relative;    
+    margin:             0;   
+    border:             1px solid #CCC;
+    width:700px;
+	
+}
+
+
+
+.cycleBottomradio_navcontainer{
+display:block;
+    list-style: none;    
+	left:0px;
+    position: relative;    
+    padding-left: 0px;     
+    margin: 0;     
+    width:700px;
+    height:22px; 
+    clear: both;
+    border: 0px solid #CCCCCC;    
+    background: #;
+    z-index:2;
+}
+
+.cycleBottomradio_nav a {  display:block;
+ 
+		background-image: url(bullets.png);
+		float:left;
+		height:22px;
+		width: 22px;
+		color:#555;
+		background-position: 0 0px;
+		background-repeat: no-repeat;
+		text-decoration:none;
+		text-indent: -9999px;
+		
+  }
+.cycleBottomradio_nav a:hover { 
+		color:#fff;
+		height:22px;
+		width: 22px;
+		background-image: url(bullets.png);
+		background-position: 0 -22px;
+		background-repeat: no-repeat;
+		display: block;
+
+}
+
+.cycleBottomradio_nav a.activeSlide { 
+  
+		color:#fff;
+		height:22px;
+		width: 22px;
+		background-image: url(bullets.png);
+		background-position: 0 -22px;
+		background-repeat: no-repeat;
+		display: block;
+
+}
+
+
